@@ -1,0 +1,260 @@
+body {
+  
+}
+
+.all {
+  text-align: center;
+  align-items: center;
+  ali
+ color: aqua;
+ background-color: ;
+ 
+ 
+}
+
+.judul {
+  padding: 12px;
+  width: 304px;
+  margin: 100px;
+  align-items: center;
+  align-items: center;
+  text-align: left;
+  background-color: blue;
+  box-shadow: 1px 1px 1px 1px white;
+  justify-content: center;
+  margin-bottom: 0.1px;
+  margin-left: 28px;
+  color: white;
+  size: 10px;
+}
+
+.input-field-with-icon {
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 2em;
+    background-color: ;
+}
+ 
+.input-field-with-icon label {
+    color: #333;     /* Warna: Purple */
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin-bottom: 5px;
+}
+ 
+.input-field-with-icon input[type="text"],
+.input-field-with-icon input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: 0.5em 1em 0.5em 0;
+}
+ 
+.input-field-with-icon input[type="text"]:focus,
+.input-field-with-icon input[type="password"]:focus {
+    border-bottom: 1px solid #3998B3;
+    outline: none;
+}
+ 
+.input-field-with-icon .icon {
+    color: #3998B3;     /* Warna: Blue */
+}
+ 
+.input-field-with-icon  .icon-envelope:before {
+    display: inline-block;
+    font-family: "FontAwesome";
+    content: "\f0e0";
+}
+.input-field-with-icon .icon-lock:before {
+    display: inline-block;
+    font-family: "FontAwesome";
+    content: "\f023";
+}
+
+.masuk {
+  background: none;
+  background-color: blue;
+  border: none;
+  padding: 10px;
+  color: white;
+  margin-right: 20px;
+  text-align: center;
+  width: 70px;
+}
+  
+.gblk {
+  display: flex
+  cursor: pointer;
+}
+.test {
+  background: none;
+  border: none;
+  color: blue;
+}
+
+.btn:hover {
+  transform:rotate(10deg);
+}
+
+.regis {
+  display: flex;
+  color: blue;
+  padding: px;
+  margin-left: 30px;
+  width: px;
+  margin-top: 10px;
+}
+.link {
+  margin-top: -2px;
+  margin-left: 5px;
+}
+
+.mau {
+  align-items: center;
+  align-content: center;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+
+.input-field-with-icon  .icon-male:before{
+    display: inline-block;
+    font-family: "FontAwesome";
+    content: "\f007";
+  
+}
+
+.dul {
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.menu_utama {
+   display: inline-block;
+   vertical-align: top;
+   width: 80px;
+   text-align:center;
+   background-color: none;
+   color: white;
+   border: White;
+   cursor: pointer;
+   padding:10px 15px;
+   margin-left: 198px;
+   margin-top: -60px;
+   
+   
+}
+.menu_utama:hover{
+   background-color: blue;
+}
+.menu_sub {
+   display: none;
+   margin-top: 10px;
+   list-style-type: none;
+   margin-left: -75px;
+   margin-bottom: -20px;
+   width: 150px;
+}
+.menu_sub a{
+   display: flex;
+   width: 100%;
+   color: white;
+   padding: 10px;
+   text-decoration: none;
+   border-bottom:solid 1px #a3d2ca;
+   background-color: aqua;
+}
+.menu_sub a:hover{
+   background-color: aqua;
+}
+#menu_dropdown .menu_utama:hover > .menu_sub {
+   display:block;
+}
+
+.gak {
+  text-align: left;
+  background-color: blue;
+  padding: 20px 15px;
+  margin-top: -5px;
+  color: white;
+  margin-left: -35px;
+  margin-right: -1px;
+  
+}
+
+.fa-bars {
+  font-siz
+}
+
+.mmk {
+  margin-top: -50px;
+}
+
+.panel {
+      border: 1px solid #7445A4; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+      text-align: center;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #7445A4;
+      background-color: #fff !important;
+      color: #7445A4;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: blue !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: blue;
+      color: #fff;
+      border: none;
+      padding: 20px;
+      width: 70px;
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color: Blue;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+
+.pr {
+  background-color: blue;
+  color: white;
+    padding: 28px;
+  width: 100%;
+  margin: 1px;
+  text-align: left;
+  margin-left: -27px;
+  margin-top: -15px;
+}
